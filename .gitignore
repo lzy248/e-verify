@@ -1,8 +1,2 @@
 __pycache__
-/data/*
-config.py
-/output/*
-/runs/*
-*.log
-*.out
 .vscode

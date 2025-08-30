@@ -1,0 +1,831 @@
+[
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:SK8vHFLHhhZNt5M2sZ7eznCVjdo6Z5To0Z8Xw2yd1c8uQPVdJ2CE3oWkpcAuaGL0"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:ckT4G1eoHfRn6lsx0c87BiNb1uqh0mfj8MsnYu8UL0Oy3mF3DKwzV4JgZe2pDCpJ"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:uQu1bFZp4NeZjxqJwbqyB9xyyxtJLMkhYlmSNGA7p8wAt6GCFPF65QjwtCU5htP1"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:xjk4zmlQjKgJzjWUqmCrj1uyReOwoYAJRfNO0DMkKd0QHeghBktrTv9WGKsfmgYD"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:5q8SLy27xVqEOPlhno9iWKiL5sEHevNSlFnyuu9BqnxVKWY6S97JJ8eJN4weFNUi"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:nHMRvuplLnj6vHodfFyjTahQKjYSwle6XKqRByVFin3oozn4EfXoWZhu3LK311HI"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:sbUUskViBBOWvvaaLT43Ht63VCPSB2322JTmZZtrB70GEtaw0JlRIB6PvmKJrJIl"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:ajIG4Yx29mVyG0jOwuN3Jpq6vfDYsKkxXISaUSSGLEHNVSdSa66CZB8lWb5yIcQ8"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:dhgkGJMBtFxdLNfKyu93TOi3TLKu9nhPNI0DuQwlQ7cUJpG6G4qBIP3L0beqTpt2"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:TUq4Dx5q3P8pCIUIzsHxMotxDzK2SGjLeX2LORtUqNqfOTUjZ4fzeX6zF0L3u7Ol"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:7wg5aYIxTyncX9dG1uFYk1OJjvFWEDZh5jNgEc8goyUjPcu8vgigB97wdAaf4VvR"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:fDuAPXeskSy2eFsGgHb2zNEe7Gcg9S33n4MzdJTSTpqEkfwVrZzDWCiXDw8jZByp"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:DXGUqBM9pH3XtJVOJ33Zv4ZTysO8QLgl2e6NJCsTIOGadrWG4ePhihgqXeyNNjRj"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:4gA9EXziRfiyFTpwvF3v5U5ghWkRwjRF3ZyLomH8Q9yev7DpmgKcVzQC9qpl4HT3"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:AaAEyH8J3WeC5liDP1DGTEH8cuw7XfZKPHkqLb8Qw9lmKtilMxmDbZcmQPkqtdoF"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:ho4MHuvFAqyPythUHEc7H3NdbeFsgGp8heaJnGNM5p7kP7mmTyzQrjpxHt8yxdrG"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:cNwHGrDhCbZr5Hnr2NK4EgVrg360j3RjApdJfpTiX9ma7wYUBKnxOJLdCbAhJF59"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:6ZJ9QyVCW00lti4LLylyLOjOKZe93nWKj8HeaWcH6yVtgmdGM0OQfY4Sal5inBHB"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:ld64isklEClnTN1HbeJP1mk956ZIcjbwm1lTWCJoXodK6IrM4EwbODQanwDjFagu"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:k6TGlcV5eoTBYVPJxSpbUuKddCasjR08vUemOL31wuMO6ksBwzwq2JkfqK0b2Adg"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:ZBVpxEtnAhBldC2mud3KwnrLW7Qes1v4r7NbaXWDN7ylkaurdy6TmNr6sFc2z7zk"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:VeB83R1zX65pIuHDdW8HF9vSiUvKaM52KeIgaXkfFhqfvnSsYyJoZcKgnHG7OAD1"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:NrKgYLPuuoqYbgE96N7m6pp3EgkLqiH1GL1dagPOLYtNrzZhYTY2jODd8QxFDJaA"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:QZvRD8EnOIWDeDaygA2HLyb1OaDoWv6YKZZchfxp90bLvePtlaa7eU8J6fZDXMh5"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:v63MOeEPmhqJpWyL48B7OhDz6YVOJily7Asy24XifVf1FX4LXfceaRf1Q6qfJMba"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:CtI3MAaZQZ9U7ClpqtyD2NPiJ41sRX5ow5gQtF2BHxkgnFMIq1OL4BXESYtN98J1"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:9dHN1S0WitxA6spqSrrcE9hM5fkRFapPPYAoEidkVXXcPkVeFHlj033OIxuHFgeY"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:Z6c2vgGliRx37uJEUgiCjrdN405TtOX5BF3Of3WNU1XYeHr3J3yyzBrqZbdqsXLF"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:RHOTgqqOl2sr19wVtkku7p6Ak0M1okU7o2JEoYxAJ6Fp6Rc5m7RVdGL54RRidmBI"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:ENUxW5uXrnlc2QjEB6Ug0lIrcNYGiPAQalxxKjzC0x4piQZW9z8InvTBXu3Zo7RS"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:ey3qQI6q6zkGJAgvqAjMJ3vlbEMcAeXe4knQm1fzQBAbdj7roo6pkGiXk4x3Jl50"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:ditX53GMPY3k88Z9blcfaRrawuyiXC6e7tNlSgixqLyEve7rkHSGWIwicVr2Rnq1"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:vpzL9B4RnwiZbryam284ORL4WrXuJzNe6cfPkd3QIosPkgtZPiEOgrQU2JtX8DK7"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:7FuuEZZFNwOl1dMQuX4ndNXeGWoL64qjGHtg4VJiUn1XJ801zyVgbRaIYBfoe1sx"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:0rMRBf3qb9iSZ3kLuftlmLBdBWwFtroVQcqdiCoZrS3bZDF1O1QlVYBBcAXE2OxY"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:GM5q6IR5xeqNGCT1rL2ENuTZwWvQzyWSMHDutKdmPdTo3sp2C97AZ7WRDZmS7GrE"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:nelSKfEcg8cB5FtaiPBbTjMdQyHqCNykdAZimaZvQheOBkmMiYUKebJ6fnPZXVh5"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:owznVXD2FGXvGdeAH3AcNz06OZyBK4X5L8hLDNadMhut0ABydlmh1K2zXA7XptE0"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:kuYkG1mbo1AEFt0IjZCVp8uMWlUzJ9HyNBTi6naBRPdMAlDflAoWuly3mDOVpslv"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:DHcg5JaTJTGhZscLOecCoDFgZXtXsScrYACe3vBwzeZ5PdPLVF4CX8GJwa0IAx2v"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:TS0xRsBWj8TC9H6wfGGXDOT6T4OW0BHOKqMi669KgY4475azQKzESY8qkuSJlWwj"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:WXh99QkfXjqGUzY5luW2Zm3yNRews2469usQvFGcOOJ0z17EYdS0giYfPzlRRVVW"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:YZxd70z1UwjiH5YV0gvmKBKAaFH3ubGmSSvOxMQ4PJ4g0aMF3CThvCtvru1aHcSt"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:hEMMqct8il1AdN9DaLfRxCHOjyhxXa4MO7XIJTEjjBmEF6qMnRdhXaaMrQx58fJ0"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:cEMkhV2NCqFhnqsOQlxbwwp1Hd3GhsI9kPmPIhBlZwX9XSI2eKarPvjAMU1q0QR3"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:Ul3GXjzpcmsRpLR9u5zAuPRMYeRZ5zbghihd9Z48UbkQwg6dVahn37vbtiz9nYj0"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:RSKvhgpY2AKl2IKed5NyfAbaRYh5yQppkwuNKJHWvNqeHNcCVU3tUsADJeMGvtx7"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:LVWy0KsJr1kVz2TVJ7WGoARbKklfUJJj0lnLUvaayB0IBC98w8OZEse29cjwcJk0"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:ObDr2Vy3rOzHaAhHv3qEkLpyMKX6vLIo8S0eriNHnyDY3PfBsg7SAWrTZImdDx3q"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:ahPln1T3kVhzmQoybsQeUaS5R1aEvCxylNasdshRIhsviECs90fiEOXxfuj6ZyOi"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:rielbGiX62D7qMKYJQ5eEr3Zzqy5t8NIcKOvDLB0kte71B5ewtM7SaD6ktfA2YmK"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:ejhtb1OUzAZudjEV0R8SKLsVU87annCRGhi6vY7sR1Oe9fQzcOJt5mp5f9FeMXfm"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:SCehqIj96kSebwj5Blznnipy9322onI5ElpgmicFyh6cBDiYMWSqNWhD6eyQOGbv"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:c6BvR9dhSuAh7CyRKATLEpJegvrOEqQHCKYm99lpfYfCdQoEHb7SpR52ae2lQ05T"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:J88tVLOpPGgnbY6vSd41KZZjLw3CDJ7OPo95sOskb8I4lH1KkHDAnpkvB41sAj4W"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:3KH1c0Ys9lCAQqnuRW68rMloNwo65mY5zIcxsBY5VdxVryOqVcNyrJ5ZJ5fcLV8w"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:ljY7JNOJqcNENSjIPolmbMis6sUYyWVjZpxce2wRaImomw2QXf1ATwzRpLuaxtZu"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:bhatKLELuQclf4R7g5GQl1MzYQ9Pxyb2qC8frbpoaSSTbbVRqEfwhbzJvZYxPv7W"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:gDNxGlHu0wK70Qj1aOEj1yWSBYXW2GBdNQNT0Mjrq8l2etg22P58Fp0lOKBJI4pB"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:1PDVrecXSqBJ3J9B6B86Z8Ecx4wm6gK1B6OLQAVPdlyUtzJiCnpuJffVYTEbmab2"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:aCEGYpl9vDVFg956lujwtsYpxmYcvd2hJbfO4FTg69R1tWPBcuRZttd00a9XbQf1"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:NZIYodtGVtVVDuxLTIdweuyqwDO8zIU6PFyP7Tb0ufYqjPT1ztnVpB5U7oo1zWeI"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:sKEGz0uhWRsiQdolcPbR4d3oET2rE4yimCd1QXPqDkaERJyFOe6n6G5ssFOIlLKw"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:yYBoCT2k5spbiCiIzXxn915XaGerfeiEvG7Yo2hE4mK9wsyqzDU6FMR9tEZPzU5v"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:71RpvXh0l8GOgYrt4QSWlTKKL7iahHp5WRbXyVoGwK3X8pSYhRi6JD5DeD80mJ9G"
+    },
+    {
+        "label": 0,
+        "score": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:zAZX3Dy7DB1K5kMT3iZbKmvGOdPFPva4p9d76xzayUypUx65J6bwFznUAbmEiTAJ"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:jwTWs4dzLt6e2B98R1yRY2RWE91V6fSoeq0yJRpmVcDDuMT6JjbIYz4oz6oHOrkj"
+    },
+    {
+        "label": 0,
+        "score": [
+            0.0,
+            1.0
+        ],
+        "contamination_identifier": "LLM-AggreFact:EVYrHNK1ICv0ve00pxnHC1H6alX9PY1hrPyjgs1YGBXK6zI3bUG2O5wTfay156B5"
+    }
+]
