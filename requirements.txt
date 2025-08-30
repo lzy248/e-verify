@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+torch
+transformers
+sentence-transformers
+datasets
+accelerate
+openai
+scikit-learn
+sentencepiece
+peft
