@@ -98,8 +98,8 @@ def fact_score_E(
 
 
 def evaluate_decompose(path, out_path, decomposer: Decomposer):
-    # path = "data/wiki_bio_gpt3_hallucination/model_gen"
-    # out_path = "data/wiki_bio_gpt3_hallucination/model_gen/decomposed_qwen"
+    # path = "data/wiki_bio_hallu/model_gen"
+    # out_path = "data/wiki_bio_hallu/model_gen/decomposed_qwen"
     os.makedirs(out_path, exist_ok=True)
     log_dict = {}
     for data_file in os.listdir(path):
@@ -118,8 +118,8 @@ def evaluate_decompose(path, out_path, decomposer: Decomposer):
 
 
 def embed_decompose(path, out_path, embedder):
-    # path = "data/wiki_bio_gpt3_hallucination/model_gen/decomposed_qwen"
-    # out_path = "data/wiki_bio_gpt3_hallucination/model_gen/embed"
+    # path = "data/wiki_bio_hallu/model_gen/decomposed_qwen"
+    # out_path = "data/wiki_bio_hallu/model_gen/embed"
     os.makedirs(out_path, exist_ok=True)
     log_dict = {}
 
@@ -152,7 +152,7 @@ def evaluate_X(path, out_file, model: PairScore, premise_key="bio_split"):
     threshold = 0.5
     log_dict = {}
 
-    wiki_data = read_json("data/wiki_bio_gpt3_hallucination/model_gen/data/wiki.json")
+    wiki_data = read_json("data/wiki_bio_hallu/model_gen/data/wiki.json")
     for data_file in os.listdir(path):
         name = data_file.split(".")[0]
         if not data_file.endswith(".json") or data_file == "wiki.json":
@@ -261,8 +261,8 @@ def corr_fact_score(path, anchor_file):
 
 def qwen0_5_de():
     evaluate_decompose(
-        path="data/wiki_bio_gpt3_hallucination/model_gen",
-        out_path="data/wiki_bio_gpt3_hallucination/model_gen/decomposed_qwen0_5b",
+        path="data/wiki_bio_hallu/model_gen",
+        out_path="data/wiki_bio_hallu/model_gen/decomposed_qwen0_5b",
         decomposer=QwenSingleDecomposer(
             model_name="experiment/ckpt/decomposer-qwen2.5-0-5b",
             batch_size=32,
@@ -271,33 +271,33 @@ def qwen0_5_de():
     )
 
     evaluate_X(
-        path="data/wiki_bio_gpt3_hallucination/model_gen/deco/decomposed_qwen0_5b",
-        out_file="data/wiki_bio_gpt3_hallucination/model_gen/scores/X_score_qwen0_5b_qwen2.5_7b.json",
+        path="data/wiki_bio_hallu/model_gen/deco/decomposed_qwen0_5b",
+        out_file="data/wiki_bio_hallu/model_gen/scores/X_score_qwen0_5b_qwen2.5_7b.json",
         model=LLMScore(model_name="Qwen/Qwen2.5-7B-Instruct", vllm_boost=True),
         premise_key="bio",
     )
     embed_decompose(
-        path="data/wiki_bio_gpt3_hallucination/model_gen/deco/decomposed_qwen0_5b",
-        out_path="data/wiki_bio_gpt3_hallucination/model_gen/embed/embed_qwen0_5_d_p_lora",
+        path="data/wiki_bio_hallu/model_gen/deco/decomposed_qwen0_5b",
+        out_path="data/wiki_bio_hallu/model_gen/embed/embed_qwen0_5_d_p_lora",
         embedder=DeEmbedder.load_from_ckpt("experiment/ckpt/d_p_lora").to(device),
     )
     evaluate_E(
-        path="data/wiki_bio_gpt3_hallucination/model_gen/embed/embed_qwen0_5_d_p_lora",
-        out_file="data/wiki_bio_gpt3_hallucination/model_gen/scores/E_score_qwen0_5_d_p_lora.json",
+        path="data/wiki_bio_hallu/model_gen/embed/embed_qwen0_5_d_p_lora",
+        out_file="data/wiki_bio_hallu/model_gen/scores/E_score_qwen0_5_d_p_lora.json",
         sim_calculator=DeSim.load_from_ckpt("experiment/ckpt/d_p_lora").to(device),
     )
 
 
 def gpt4o_de():
     evaluate_decompose(
-        path="data/wiki_bio_gpt3_hallucination/model_gen",
-        out_path="data/wiki_bio_gpt3_hallucination/model_gen/decomposed_gpt4o",
+        path="data/wiki_bio_hallu/model_gen",
+        out_path="data/wiki_bio_hallu/model_gen/decomposed_gpt4o",
         decomposer=APIDecomposer(api_name="gpt-4o"),
     )
 
     evaluate_X(
-        path="data/wiki_bio_gpt3_hallucination/model_gen/decomposed_gpt4o",
-        out_path="data/wiki_bio_gpt3_hallucination/model_gen/X_score_gpt4o_deberta",
+        path="data/wiki_bio_hallu/model_gen/decomposed_gpt4o",
+        out_path="data/wiki_bio_hallu/model_gen/X_score_gpt4o_deberta",
         model=DeBERTaScore(
             model_name="MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
             labels=["entailment", "neutral", "contradiction"],
@@ -305,37 +305,37 @@ def gpt4o_de():
     )
 
     embed_decompose(
-        path="data/wiki_bio_gpt3_hallucination/model_gen/deco/decomposed_gpt4o",
-        out_path="data/wiki_bio_gpt3_hallucination/model_gen/embed/embed_gpt4o_d_p_lora",
+        path="data/wiki_bio_hallu/model_gen/deco/decomposed_gpt4o",
+        out_path="data/wiki_bio_hallu/model_gen/embed/embed_gpt4o_d_p_lora",
         embedder=DeEmbedder.load_from_ckpt("experiment/ckpt/d_p_lora", n_latest=3).to(
             device
         ),
     )
     evaluate_E(
-        path="data/wiki_bio_gpt3_hallucination/model_gen/embed/embed_gpt4o_d_p_lora",
-        out_file="data/wiki_bio_gpt3_hallucination/model_gen/scores/E_score_gpt4o_d_p_lora.json",
+        path="data/wiki_bio_hallu/model_gen/embed/embed_gpt4o_d_p_lora",
+        out_file="data/wiki_bio_hallu/model_gen/scores/E_score_gpt4o_d_p_lora.json",
         sim_calculator=DeSim.load_from_ckpt("experiment/ckpt/d_p_lora", n_latest=3).to(
             device
         ),
     )
 
     evaluate_X(
-        path="data/wiki_bio_gpt3_hallucination/model_gen/deco/decomposed_gpt4o",
-        out_file="data/wiki_bio_gpt3_hallucination/model_gen/scores/X_score_gpt4o_qwen2.5_7b.json",
+        path="data/wiki_bio_hallu/model_gen/deco/decomposed_gpt4o",
+        out_file="data/wiki_bio_hallu/model_gen/scores/X_score_gpt4o_qwen2.5_7b.json",
         model=LLMScore(model_name="Qwen/Qwen2.5-7B-Instruct", vllm_boost=True),
         premise_key="bio",
     )
 
     evaluate_X(
-        path="data/wiki_bio_gpt3_hallucination/model_gen/decomposed_gpt4o",
-        out_file="data/wiki_bio_gpt3_hallucination/model_gen/scores/X_score_gpt4o_gpt4o.json",
+        path="data/wiki_bio_hallu/model_gen/decomposed_gpt4o",
+        out_file="data/wiki_bio_hallu/model_gen/scores/X_score_gpt4o_gpt4o.json",
         model=APIScore(api_name="gpt-4o"),
         premise_key="bio",
     )
 
     evaluate_X(
-        path="data/wiki_bio_gpt3_hallucination/model_gen/deco/decomposed_gpt4o",
-        out_file="data/wiki_bio_gpt3_hallucination/model_gen/scores/X_score_gpt4o_minicheck_2.json",
+        path="data/wiki_bio_hallu/model_gen/deco/decomposed_gpt4o",
+        out_file="data/wiki_bio_hallu/model_gen/scores/X_score_gpt4o_minicheck_2.json",
         model=DeBERTaScore(
             model_name="lytang/MiniCheck-DeBERTa-v3-Large",
             labels=["contradiction", "entailment"],
@@ -343,14 +343,14 @@ def gpt4o_de():
     )
 
     evaluate_X(
-        path="data/wiki_bio_gpt3_hallucination/model_gen/deco/decomposed_gpt4o",
-        out_file="data/wiki_bio_gpt3_hallucination/model_gen/scores/X_score_gpt4o_minicheck_flan-t5_2",
+        path="data/wiki_bio_hallu/model_gen/deco/decomposed_gpt4o",
+        out_file="data/wiki_bio_hallu/model_gen/scores/X_score_gpt4o_minicheck_flan-t5_2",
         model=FlanT5Score(model_name="lytang/MiniCheck-Flan-T5-Large"),
     )
 
     evaluate_X(
-        path="data/wiki_bio_gpt3_hallucination/model_gen/deco/decomposed_gpt4o",
-        out_file="data/wiki_bio_gpt3_hallucination/model_gen/scores/X_score_gpt4o_nli-roberta_2.json",
+        path="data/wiki_bio_hallu/model_gen/deco/decomposed_gpt4o",
+        out_file="data/wiki_bio_hallu/model_gen/scores/X_score_gpt4o_nli-roberta_2.json",
         model=DeBERTaScore(
             model_name="cross-encoder/nli-roberta-base",
             labels=["contradiction", "entailment", "neutral"],
@@ -362,6 +362,6 @@ if __name__ == "__main__":
     # qwen0_5_de()
     # gpt4o_de()
     corr_fact_score(
-        path="data/wiki_bio_gpt3_hallucination/model_gen/scores",
-        anchor_file="data/wiki_bio_gpt3_hallucination/model_gen/gen_label/human_score.json",
+        path="data/wiki_bio_hallu/model_gen/scores",
+        anchor_file="data/wiki_bio_hallu/model_gen/gen_label/human_score.json",
     )

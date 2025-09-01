@@ -78,8 +78,8 @@ def judge_wiki_en(
 
 def judge_wiki_hallu(
     judge_model,
-    input_path="data/wiki_bio_gpt3_hallucination/wiki_bio_simple.json",
-    output_base_path="data/wiki_bio_gpt3_hallucination/eval_simple",
+    input_path="data/wiki_bio_hallu/wiki_bio_simple.json",
+    output_base_path="data/wiki_bio_hallu/eval_simple",
 ):
     data = read_json(input_path)
     type_dict = {
@@ -283,13 +283,13 @@ if __name__ == "__main__":
 
     judge_wiki_hallu(
         judge_model,
-        input_path="data/wiki_bio_gpt3_hallucination/wiki_bio_simple.json",
-        output_base_path="data/wiki_bio_gpt3_hallucination/eval_simple",
+        input_path="data/wiki_bio_hallu/wiki_bio_simple.json",
+        output_base_path="data/wiki_bio_hallu/eval_simple",
     )
     judge_wiki_hallu(
         judge_model,
-        input_path="data/wiki_bio_gpt3_hallucination/wiki_bio_hard.json",
-        output_base_path="data/wiki_bio_gpt3_hallucination/eval_hard",
+        input_path="data/wiki_bio_hallu/wiki_bio_hard.json",
+        output_base_path="data/wiki_bio_hallu/eval_hard",
     )
     judge_wiki_en(
         judge_model,

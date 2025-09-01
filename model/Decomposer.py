@@ -457,7 +457,7 @@ def generate_decompose(
     if input:
         data = read_json(input)
     else:
-        data = read_json("data/wiki_bio_gpt3_hallucination/wiki_bio_simple.json")
+        data = read_json("data/wiki_bio_hallu/wiki_bio_simple.json")
 
     texts = [d["wiki_bio_text"] for d in data]
     error_texts = [d["text_with_error"] for d in data]

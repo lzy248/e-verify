@@ -100,9 +100,7 @@ def judge_decompose_recall(
 def judge_decompose(path):
     judge = APIScore()
     decompose = read_json(path)
-    oracle_decompose = read_json(
-        "data/wiki_bio_gpt3_hallucination/wiki_bio_simple.json"
-    )
+    oracle_decompose = read_json("data/wiki_bio_hallu/wiki_bio_simple.json")
     recalls = []
     precisions = []
     recall_correct = 0

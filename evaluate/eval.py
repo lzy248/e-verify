@@ -34,8 +34,8 @@ def eval_wiki_en(
 def eval_wiki_hallu(
     eval_file: str = None,
     freeze_threshold=0.5,
-    label_file: str = "data/wiki_bio_gpt3_hallucination/wiki_bio_simple.json",
-    eval_result_path: str = "data/wiki_bio_gpt3_hallucination/eval_simple/",
+    label_file: str = "data/wiki_bio_hallu/wiki_bio_simple.json",
+    eval_result_path: str = "data/wiki_bio_hallu/eval_simple/",
 ):
     print(f"path: {eval_result_path}")
     print("========wiki_bio_hallucination========")
@@ -116,10 +116,10 @@ if __name__ == "__main__":
     eval_wiki_en(eval_result_path="data/wiki_en_sentence/eval_5000")
 
     eval_wiki_hallu(
-        eval_result_path="data/wiki_bio_gpt3_hallucination/eval_simple",
-        label_file="data/wiki_bio_gpt3_hallucination/wiki_bio_simple.json",
+        eval_result_path="data/wiki_bio_hallu/eval_simple",
+        label_file="data/wiki_bio_hallu/wiki_bio_simple.json",
     )
     eval_wiki_hallu(
-        eval_result_path="data/wiki_bio_gpt3_hallucination/eval_hard",
-        label_file="data/wiki_bio_gpt3_hallucination/wiki_bio_hard.json",
+        eval_result_path="data/wiki_bio_hallu/eval_hard",
+        label_file="data/wiki_bio_hallu/wiki_bio_hard.json",
     )
