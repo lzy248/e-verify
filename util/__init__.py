@@ -216,7 +216,7 @@ def stanza_split_sentence(text: str) -> List[str]:
     """
     global nlp
     if nlp is None:
-        nlp = stanza.Pipeline(lang="en", processors="tokenize", download_method=None)
+        nlp = stanza.Pipeline(lang="en", processors="tokenize")
     doc = nlp(text)
     return [sent.text for sent in doc.sentences]
 
