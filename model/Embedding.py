@@ -563,21 +563,11 @@ class DeBERTaScore(PairScore):
                 max_length=512,
             )
             inputs = {k: v.to(device) for k, v in inputs.items()}
-            batch_scores = self.model(**inputs, return_dict=True).logits
-            batch_scores = (
-                torch.softmax(
-                    batch_scores[:, [self.entailment_index, self.contradiction_index]],
-                    dim=1,
-                )
-                .to("cpu")
-                .numpy()
-                .astype(float)
-            )
+            logits = self.model(**inputs, return_dict=True).logits
+            batch_labels = [self.labels[score_max] for score_max in logits.argmax(dim=1)]
+            batch_scores = [1 if label == "entailment" else 0 for label in batch_labels]
             scores.extend(batch_scores)
-        out_scores = []
-        for score in scores:
-            out_scores.append(score[0])  # entailment
-        return out_scores
+        return scores
 
 
 class MiniCheckScore(PairScore):
